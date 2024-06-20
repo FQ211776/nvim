@@ -14,7 +14,7 @@ dashboard.setup({
     config = {
         week_header = {
             enable = true,
-            append = { '', icons.ui.Circle .. ' nvim2K: Learn, Make, Explore! ' .. icons.ui.Circle },
+            append = { '', icons.ui.Circle .. ' Robert Vim: entorno de desarrollo ' .. icons.ui.Circle },
         },
         packages = { enable = true },
         project = { enable = true, limit = 8 },
@@ -33,13 +33,13 @@ dashboard.setup({
                 key = 'p',
             },
             {
-                desc = icons.documents.OpenFolder .. 'Files',
+                desc = icons.documents.OpenFolder .. 'Archivos',
                 group = 'Label',
                 action = 'lua require("telescope").extensions.menufacture.find_files()',
                 key = 'f',
             },
             {
-                desc = icons.ui.Search .. 'Search',
+                desc = icons.ui.Search .. 'Buscar',
                 group = 'Label',
                 action = 'lua require("telescope").extensions.menufacture.live_grep()',
                 key = 'g',
@@ -57,7 +57,7 @@ dashboard.setup({
                 key = 'q',
             },
         },
-        footer = { '', icons.ui.Heart .. ' Happiness is a state of mind. ' .. icons.ui.Heart },
+        footer = { '', icons.ui.Heart .. ' La familia lo es todo. ' .. icons.ui.Heart },
     },
 })
 
